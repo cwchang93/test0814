@@ -10,6 +10,6 @@ def combination(n,r):
     for i in range(n,r,-1):
         c = c*i/k
         k = k+1
-        return(c)
+    return(c)
 
-combination(900,40)
+print(combination(900,40))
